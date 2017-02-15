@@ -2,12 +2,13 @@ body{
   margin: 0;
   background-color: maroon;
 }
+
 label{
   padding: 10px 0 10px 0;
   font-size: 25px;
-  font-family: 'Quicksand', sans-serif;
-
+  font-family: 'Abril Fatface', sans-serif;
 }
+
 h1{
   margin-bottom: 5px
 
@@ -15,9 +16,10 @@ h1{
 h3 {
   margin-top: 5px;
 }
+
 .header{
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   font-size: 23px;
 }
 
@@ -33,7 +35,7 @@ img {
   margin-right: 5px;
 }
 
-.hand{
+.hand {
   background: black;
   width: 100%;
   height: 200px;
@@ -41,13 +43,13 @@ img {
   margin-bottom: 15px;
 }
 
-button{
+button {
   height: 30px;
-    width: 60px;
-    font-size: 1.1em;
-    border-radius: 4px;
-    border: none;
-    font-family: 'Quicksand', sans-serif;
+  width: 75px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Abril Fatface', sans-serif;
 }
 
 #bet_box{
@@ -55,31 +57,50 @@ button{
   width: 140px;
   border-radius: 4px;
   font-size: 15px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+table {
+  display: block;
 }
 
 td {
   padding: 4px;
 }
 .buttons{
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 #score {
-    font-family: 'Quicksand', sans-serif;
-    margin-top: 160px;
-    font-size: 1.3em;
+  float: right;
+  font-family: 'Abril Fatface', sans-serif;
+  /*margin-top: 110px;*/
+  font-size: 1.3em;
 }
 
 #reset-button {
   height: 50px;
-    width: 70px;
+  width: 70px;
 }
 
 #bet_table {
-    font-family: 'Quicksand', sans-serif;
-    margin-top: 120px;
-    font-size: 1.3em;
+  font-family: 'Abril Fatface', sans-serif;
+  margin: 0 20px;
+  font-size: 1.3em;
+}
+
+#current_bet_row {
+  font-family: 'Abril Fatface', sans-serif;
+  margin: 0;
+  font-size: 1.3em;
+}
+
+#player-hand {
+  display: block;
+}
+
+.floatRight {
+  float: right;
 }

@@ -120,7 +120,7 @@ var hidden_image_url;
 var win_amount = 0;
 
 //Initial page layout for first time page load
-$('#score').hide();
+$('.score').hide();
 $('#hit-button').hide();
 $('#stand-button').hide();
 $('#winnings').text("$"+winnings);
@@ -263,7 +263,7 @@ $(function() {
     playerHand = new Hand();
     $("#player-wins").text(p_wins);
     $("#dealer-wins").text(d_wins);
-    $("#score").show();
+    $(".score").show();
     $('#reset-button').hide();
     //Styling for the bet table after the appearance of the win/loss table
     $("#bet_table").css("margin-top", "30px");
