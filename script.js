@@ -278,7 +278,7 @@ $(function() {
       $("#dealer-points").text(d_points + ": Bust!");
       $("#player-points").text(p_points + ": Player Wins!");
       p_wins += 1;
-      winnings += new_bet_amount;
+      winnings += new_bet_amount + bet_amount;
       $("#winnings").text("$" + winnings);
     }
     else {
@@ -291,7 +291,7 @@ $(function() {
       else if (d_points < p_points){
         $("#player-points").text(p_points + ": Player Wins!");
         p_wins += 1;
-        winnings += new_bet_amount;
+        winnings += new_bet_amount + bet_amount;
         $("#winnings").text("$" + winnings);
       }
       //If dealer and player points are equal, there is a draw, and bet money is refunded
