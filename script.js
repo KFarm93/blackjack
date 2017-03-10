@@ -184,6 +184,16 @@ $(function() {
     winnings -= bet_amount;
     $("#bet_box").hide();
     $("#winnings").text("$" + winnings);
+    if (p_points === 21) {
+      $("#player-points").text("Blackjack!");
+      p_wins += 1;
+      winnings += bet_amount * 2;
+      $("#winnings").text("$" + winnings);
+      $('#reset-button').show();
+      $('#stand-button').hide();
+      $('#dbl-button').hide();
+      $('#hit-button').hide();
+    }
   });
 //Event handler for Hit button click
   $('#hit-button').click(function() {
