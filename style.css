@@ -104,3 +104,7 @@ td {
 .floatRight {
   float: right;
 }
+
+#dbl-button {
+  height: 50px;
+}
